@@ -11,7 +11,7 @@ document.getElementById('searchBtn').addEventListener('click', function () {
             <img src="${ element.strMealThumb }" onClick="checkItemsInfo(${ element.idMeal })">    
             <h1 onClick="checkItemsInfo(${ element.idMeal })" >${ element.strMeal }</h1>
             `;
-                foodDiv.className = "card";
+                foodDiv.className = "foodDivClass";
                 foodDetail.appendChild(foodDiv);
             });
         })

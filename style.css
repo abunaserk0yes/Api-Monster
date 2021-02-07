@@ -1,0 +1,27 @@
+body{
+    background-color: steelblue !important;
+}
+:focus{
+    outline:none;
+}
+input#searchItem {
+    width: 300px;
+    padding: 12px;
+}
+
+button#searchBtn {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.foodDivClass img {
+    width: 200px;
+    height: auto;
+    border-radius:10px;
+}
+
+.foodDivClass {
+    float: left;
+    padding: 2%;
+    text-align: center;
+}
