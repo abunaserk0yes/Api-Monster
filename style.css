@@ -25,3 +25,16 @@ button#searchBtn {
     padding: 2%;
     text-align: center;
 }
+.foodDivClass h1 {
+    margin: 5%;
+    color: white;
+    font-style: italic;
+    font-size: 30px;
+}
+.food-details{
+    text-align: center;
+}
+.food-details img {
+    width: 300px;
+    border-radius: 10px;
+}
