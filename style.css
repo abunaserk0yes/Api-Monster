@@ -1,40 +1,72 @@
-body{
-    background-color: steelblue !important;
-}
-:focus{
-    outline:none;
-}
-input#searchItem {
-    width: 300px;
-    padding: 12px;
+body {
+    background-color: slateblue;
 }
 
-button#searchBtn {
-    margin: 20px;
-    font-size: 30px;
+.search-Container {
+    margin-left: 36%;
+    margin-top: 10%;
 }
 
-.foodDivClass img {
-    width: 200px;
-    height: auto;
-    border-radius:10px;
+.search-Container input {
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: 0;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.foodDivClass {
-    float: left;
-    padding: 2%;
+.search-Container button {
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#meals-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+#meals-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+#meals-container h2 {
+    font-size: 18px;
     text-align: center;
-}
-.foodDivClass h1 {
-    margin: 5%;
+    margin: 25px 0;
+    font-weight: 900;
     color: white;
     font-style: italic;
-    font-size: 30px;
 }
-.food-details{
+
+#meals-container img,
+#meals-details img {
+    margin: auto;
+    width: 350px;
+    height: auto;
     text-align: center;
+    box-shadow: 15px 10px 35px #b3afaf;
+    border-radius: 30px;
+    background-color: #000;
 }
-.food-details img {
-    width: 300px;
-    border-radius: 10px;
+
+.mealsDetailsInfo h3 {
+    text-align: center;
+    color: greenyellow;
+    font-style: italic;
+}
+
+.mealsDetailsInfo h5 {
+    text-align: center;
+    color: yellow;
+    margin-top: 14px;
 }
